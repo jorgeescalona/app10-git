@@ -1,0 +1,633 @@
+ <!doctype html>
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Proyecto</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/temaapp6.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+	 <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	 <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+	<script type="text/javascript" src="engine2/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+	<script type="text/javascript" src="engine3/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/imagen_css1.jpg','imagenes/dam12.png','imagenes/j1.jpg','imagenes/PHP1.jpg','imagenes/MySQL1.png','imagenes/web2.png')">
+<div data-role="page" id="principal1" data-add-back-btn="true" data-theme="a" >
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a" data-position="fixed">  <h1>Aplicación 10</h1> </div>
+  <div data-role="content" align="center">
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Funcionamiento de Internet</h2> 
+       <p>¿Como funciona?</p> 
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>HTML5</h2>
+       <p>Elementos Basicos</p>  
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>CSS</h2> 
+       <p>Reglas de Estilo
+       </p>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Dreamweaver CS6</h2>
+      </a>      
+     </li>     
+     <li class="ui-first-child ui-last-child">
+       <div data-role="collapsible" data-comtent-theme="false">
+         <h2>Visor de Imagenes</h2>
+         <div>     <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/dam1.png" alt="Dam1" title="Dam1" id="wows1_0"/></li>
+		<li><img src="data1/images/dam2.jpg" alt="dam2" title="dam2" id="wows1_1"/></li>
+		<li><img src="data1/images/dam3.jpg" alt="dam3" title="dam3" id="wows1_2"/></li>
+		<li><img src="data1/images/dam4.png" alt="dam4" title="dam4" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/dam5.png" alt="bootstrap slider" title="dam5" id="wows1_4"/></a></li>
+		<li><img src="data1/images/dam6.jpg" alt="dam6" title="dam6" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Dam1"><span><img src="data1/tooltips/dam1.png" alt="Dam1"/>1</span></a>
+		<a href="#" title="dam2"><span><img src="data1/tooltips/dam2.jpg" alt="dam2"/>2</span></a>
+		<a href="#" title="dam3"><span><img src="data1/tooltips/dam3.jpg" alt="dam3"/>3</span></a>
+		<a href="#" title="dam4"><span><img src="data1/tooltips/dam4.png" alt="dam4"/>4</span></a>
+		<a href="#" title="dam5"><span><img src="data1/tooltips/dam5.png" alt="dam5"/>5</span></a>
+		<a href="#" title="dam6"><span><img src="data1/tooltips/dam6.jpg" alt="dam6"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->      </div>
+         <div> </div>
+       </div>      
+     </li> 
+          
+    </ul>
+    
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>CSS</h2>
+       <p>Ajuste relativo a dispositivos (%, em)</p> 
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>WAMP</h2>  
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>JS</h2>
+       <p>Variables-Funciones-Jquery</p>  
+      </a>      
+     </li> 
+     
+     <li class="ui-first-child ui-last-child">
+       <div data-role="collapsible" data-comtent-theme="false">
+         <h2>Visor de Imagenes</h2>
+         <div>
+			 <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/dam7.jpg" alt="dam7" title="dam7" id="wows2_0"/></li>
+		<li><img src="data2/images/dam8.jpg" alt="dam8" title="dam8" id="wows2_1"/></li>
+		<li><img src="data2/images/dam9.png" alt="dam9" title="dam9" id="wows2_2"/></li>
+		<li><img src="data2/images/dam10.jpg" alt="dam10" title="dam10" id="wows2_3"/></li>
+		<li><img src="data2/images/dam11.jpg" alt="dam11" title="dam11" id="wows2_4"/></li>
+		<li><img src="data2/images/dam12.png" alt="dam12" title="dam12" id="wows2_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/dream.jpg" alt="http://wowslider.net/" title="dream" id="wows2_6"/></a></li>
+		<li><img src="data2/images/html.jpg" alt="html" title="html" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="dam7"><span><img src="data2/tooltips/dam7.jpg" alt="dam7"/>1</span></a>
+		<a href="#" title="dam8"><span><img src="data2/tooltips/dam8.jpg" alt="dam8"/>2</span></a>
+		<a href="#" title="dam9"><span><img src="data2/tooltips/dam9.png" alt="dam9"/>3</span></a>
+		<a href="#" title="dam10"><span><img src="data2/tooltips/dam10.jpg" alt="dam10"/>4</span></a>
+		<a href="#" title="dam11"><span><img src="data2/tooltips/dam11.jpg" alt="dam11"/>5</span></a>
+		<a href="#" title="dam12"><span><img src="data2/tooltips/dam12.png" alt="dam12"/>6</span></a>
+		<a href="#" title="dream"><span><img src="data2/tooltips/dream.jpg" alt="dream"/>7</span></a>
+		<a href="#" title="html"><span><img src="data2/tooltips/html.jpg" alt="html"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+           <div data-role="main" class="ui-content" align="center">
+             <div style="width:40%;"> </div>
+           </div>
+           <br>
+         </div>
+         <div> </div>
+       </div>      
+     </li>      
+    </ul>
+  </div>
+
+ <div>
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+	   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>PHP</h2> 
+       <p>Introducción</p>
+      </a></li>
+     
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>MySQL</h2>
+         <p>Introducción-Diseño y Creación de Base de Datos
+</p>
+      </a>      
+     </li>
+       <li class="ui-first-child ui-last-child">
+        <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+          <h2>Subida a la red de sitios web</h2> 
+        </a>      
+       </li> 
+       <li class="ui-first-child ui-last-child">
+         <div data-role="collapsible" data-comtent-theme="false">
+           <h2>Visor de Imagenes</h2>
+           <div>
+			   <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/dam10.jpg" alt="dam10" title="dam10" id="wows3_0"/></li>
+		<li><img src="data3/images/dam11.jpg" alt="dam11" title="dam11" id="wows3_1"/></li>
+		<li><img src="data3/images/html.jpg" alt="html" title="html" id="wows3_2"/></li>
+		<li><img src="data3/images/imagen_css1.jpg" alt="imagen_css1" title="imagen_css1" id="wows3_3"/></li>
+		<li><img src="data3/images/internet.jpg" alt="internet" title="internet" id="wows3_4"/></li>
+		<li><img src="data3/images/internet006.jpg" alt="internet-006" title="internet-006" id="wows3_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/j.png" alt="wow slider" title="j" id="wows3_6"/></a></li>
+		<li><img src="data3/images/j1.jpg" alt="j1" title="j1" id="wows3_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="dam10"><span><img src="data3/tooltips/dam10.jpg" alt="dam10"/>1</span></a>
+		<a href="#" title="dam11"><span><img src="data3/tooltips/dam11.jpg" alt="dam11"/>2</span></a>
+		<a href="#" title="html"><span><img src="data3/tooltips/html.jpg" alt="html"/>3</span></a>
+		<a href="#" title="imagen_css1"><span><img src="data3/tooltips/imagen_css1.jpg" alt="imagen_css1"/>4</span></a>
+		<a href="#" title="internet"><span><img src="data3/tooltips/internet.jpg" alt="internet"/>5</span></a>
+		<a href="#" title="internet-006"><span><img src="data3/tooltips/internet006.jpg" alt="internet-006"/>6</span></a>
+		<a href="#" title="j"><span><img src="data3/tooltips/j.png" alt="j"/>7</span></a>
+		<a href="#" title="j1"><span><img src="data3/tooltips/j1.jpg" alt="j1"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:40%;"></div>
+             </div>
+             <br>
+           </div>
+           <div> </div>
+         </div>      
+       </li>      
+      </ul>
+  </div>
+    <br>
+    <div data-role="collapsible" data-comtent-theme="false">
+      <div>      </div>
+    </div>
+    <div data-role="collapsible" data-comtent-theme="false">
+    <h2>Datos del Desarrollador</h2>
+    <div>
+     
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <table width="265" border="1">
+    <tr>
+      <th colspan="2" scope="row">Datos del Desarrollador</th>
+    </tr>
+    <tr>
+      <th width="142" scope="row">Nombre del Amuno</th>
+      <td width="107">Jorge Escalona </td>
+      </tr>
+    <tr>
+      <th scope="row">Grupo</th>
+      <td>F</td>
+      </tr>
+    <tr>
+      <th scope="row">Semestre</th>
+      <td>4</td>
+      </tr>
+    <tr>
+      <th scope="row">Submodulo</th>
+      <td>Desarrolla aplaciones Moviles</td>
+      </tr>
+    <tr>
+      <th scope="row">Nombre del Docente</th>
+      <td>José Antonio Gomez Hernandes</td>
+      </tr>
+  </table>
+  
+ </div>
+</div>
+     <br> 
+	   </div>
+   </div>
+	<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  	 <div>
+   	 	<img src="imagenes/persona_azul.png" width="46" height="46">
+   	 </div>
+   		<h4>Aplicación 10, JEM</h4>
+    </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>Funcionamiento de Internet</h2> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>¿Qué es el internet?</h2>
+    <p>Internet es una red de computadoras que se encuentran interconectadas a nivel mundial para compartir información. Se trata de una red de equipos de cálculo que se relacionan entre sí a través de la utilización de un lenguaje universal.
+El concepto Internet tiene sus raíces en el idioma inglés y se encuentra conformado por el vocablo inter (que significa entre) y net  (proveniente de network que quiere decir red electrónica). Es un término que siempre debe ser escrito en mayúscula ya que, hace referencia a “La Red” (que conecta a las computadoras mundialmente mediante el protocolo TCP/IP) y sin un artículo que lo acompañe (el/la) para hacerle referencia.</p>
+<div data-role="main" class="ui-content" align="center">
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image64','','imagenes/internet-006.jpg',0)"><img src="imagenes/internet.jpg" width="1600" height="900" id="Image64"></a>
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" data-role="button">
+        <h2>Siguiente Pagina</h2>
+      </a>
+    </li> 
+   </ul>
+ </div>
+</div>
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, JEM</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>HTML 5 </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Introduccion a HTML 5</h2>
+    <p>HTML5 es un lenguaje markup (de hecho, las siglas de HTML significan Hyper Text Markup Language) usado para estructurar y presentar el contenido para la web. Es uno de los aspectos fundamentales para el funcionamiento de los sitios, pero no es el primero. Es de hecho la quinta revisión del estándar que fue creado en 1990. A fines del año pasado, la W3C la recomendó para transformarse en el estándar a ser usado en el desarrollo de proyectos venideros. Por así decirlo, qué es HTML5 está relacionado también con la entrada en decadencia del viejo estándar HTML 4, que se combinaba con otros lenguajes para producir los sitios que podemos ver hoy en día. Con HTML5, tenemos otras posibilidades para explotar usando menos recursos. Con HTML5, también entra en desuso el formato XHTML, dado que ya no sería necesaria su implementación.</p>
+    <div data-role="main" class="ui-content" align="center">
+   <img src="imagenes/html.jpg" width="60%" height="60%" >
+ </div>
+</div>
+  </div>   
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://webdesdecero.com/tutorial-html5-introduccion/" data-role="button">
+        <h2>Más Información</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Seis, CAMM</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>HTML</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Reglas de estilo</h2>
+    <p>CSS funciona a base de reglas, es decir, declaraciones sobre el estilo de uno o más elementos. Las hojas de estilo están compuestas por una o más de esas reglas aplicadas a un documento HTML o XML. La regla tiene dos partes: un selector y la declaración.</p>
+    <img src="imagenes/imagen_css1.jpg" width="60%" height="60%" >
+<div data-role="main" class="ui-content" align="center">
+   
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.htmlhelp.com/es/reference/css/structure.html" data-role="button">
+        <h2>Más sobre la reglas de estilo</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>   
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>HTML5</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>¿Como Funciona Dreamweaver?</h2>
+    <p>Adobe Dreamweaver es una aplicación en programa de estudio (basada en la forma de estudio de Adobe Flash) que está destinada a la construcción, diseño y edición de sitios, vídeos y aplicaciones Web basados en estándares. Creado inicialmente por Macromedia (actualmente producido por Adobe Systems) es uno de los programas más utilizados en el sector del diseño y la programación web por sus funcionalidades, su integración con otras herramientas como Adobe Flash y, recientemente, por su soporte de los estándares del World Wide Web Consortium.
+    </p>
+<img src="imagenes/dream.jpg" width="60%" height="60%" >
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" data-role="button">
+        <h2>Siguiente Parcial</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>  
+  </div>
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>CSS</h1> 
+  </div>
+<div data-role="content" align="center">
+   <h2>Ajuste relativo a dispositivos</h2>
+	<p>Como habrás podido observar al poner en marcha estos ejemplos, los textos no se ajustan siempre de manera predeterminada a las formas que estmos creando con CSS3, es decir, muchas veces el texto se sale de la caja, porque no sigue la forma circular que le estamos aplicando al redondear la esquina. En resumen, al texto, que la esquina esté redondeada le da exactamente igual.</p>
+	<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/imagen_css1.jpg',1)"><img src="imagenes/dam4.png" alt="" width="1402" height="657" id="Image31"></a>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>¿Que es WAMP?</h2> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Que es WAMP</h2>
+    <p>WAMP es el acrónimo usado para describir un sistema de infraestructura de internet que usa las siguientes herramientas:
+
+Windows, como sistema operativo;
+Apache, como servidor web;
+MySQL, como gestor de bases de datos;
+PHP (generalmente), Perl, o Python, como lenguajes de programación.
+El uso de un WAMP permite subir páginas html a internet, además de poder gestionar datos en ellas. Al mismo tiempo, un WAMP proporciona lenguajes de programación para desarrollar aplicaciones web.</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('I','','imagenes/dam12.png',1)"><img src="imagenes/dam8.jpg" alt="" width="900" height="768" id="I"></a>
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.wampserver.com/en/" data-role="button">
+        <h2>Más Informacion</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div> 
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>Java Scscript</h2> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>¿Qué es JavaScript?</h2>
+    <p>Javascript es un lenguaje que puede ser utilizado por profesionales y para quienes se inician en el desarrollo y diseño de sitios web. No requiere de compilación ya que el lenguaje funciona del lado del cliente, los navegadores son los encargados de interpretar estos códigos.
+
+Muchos confunden el Javascript con el Java pero ambos lenguajes son diferentes y tienes sus características singulares. Javascript tiene la ventaja de ser incorporado en cualquier página web, puede ser ejecutado sin la necesidad de instalar otro programa para ser visualizado.
+
+Java por su parte tiene como principal característica ser un lenguaje independiente de la plataforma. Se puede crear todo tipo de programa que puede ser ejecutado en cualquier ordenador del mercado: Linux, Windows, Apple, etc. Debido a sus características también es muy utilizado para internet.
+
+Como síntesis se pude decir que Javascript es un lenguaje interpretado, basado en prototipos, mientras que Java es un lenguaje más orientado a objetos.</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('1','','imagenes/j1.jpg',1)"><img src="imagenes/j.png" alt="" width="1000" height="750" id="1"></a>
+
+  <li class="ui-first-child ui-last-child">
+       <div data-role="collapsible" data-comtent-theme="false">
+         <h2>Funciones Jquery</h2>
+         <p>Las funciones son un conjunto de líneas de código (instrucciones), encapsulados en un bloque, usualmente reciben parámetros, cuyos valores utilizan para efectuar operaciones y adicionalmente retornan un valor. En otras palabras una función puede recibir parámetros o argumentos (algunas no reciben nada), hace uso de dichos valores recibidos como sea necesario y retorna un valor usando la instrucción return, si no retorna algo, entonces no es una función. En java las funciones usan el modificador static.</p>
+         <img src="imagenes/fun.png" width="60%" height="60%" >
+         <div>
+           <div data-role="main" class="ui-content" align="center">
+             <div style="width:40%;"> </div>
+           </div>
+           <br>
+         </div>
+         <div> </div>
+       </div>      
+     </li>
+     <div data-role="main" class="ui-content" align="center">
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina9" data-role="button">
+        <h2>Siguiente Parcial</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div> 
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>PHP</h2> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Introduccion a Php</h2>
+    <p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.
+
+Lo mejor de utilizar PHP es su extrema simplicidad para el principiante, pero a su vez ofrece muchas características avanzadas para los programadores profesionales. No sienta miedo de leer la larga lista de características de PHP. En unas pocas horas podrá empezar a escribir sus primeros scripts.
+<div data-role="main" class="ui-content" align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image65','','imagenes/PHP1.jpg',1)"><img src="imagenes/PHP.png" width="500" height="500" id="Image65"></a>
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://www.youtube.com/watch?v=89f9vC4hZh8" data-role="button">
+        <h2>Video a Introduccion PHP</h2>
+      </a>
+    </li>
+   </ul>
+ </div>
+</div>
+    </p>  
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>HTML</h2> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>MySQL</h2>
+    <p>MySQL es la base de datos de código abierto más popular del mundo. Con su rendimiento, confiabilidad y facilidad de uso comprobados, MySQL se ha convertido en la principal opción de base de datos para aplicaciones basadas en la Web, utilizada por propiedades web de alto perfil como Facebook, Twitter, YouTube, y los cinco principales sitios web*. Además, es una alternativa extremadamente popular como base de datos integrada, distribuida por miles de ISV y OEM.
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('photo','','imagenes/MySQL1.png',1)"><img src="imagenes/sql.gif" width="1595" height="726" id="photo"></a>
+    <div data-role="main" class="ui-content" align="center">
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://www.oracle.com/lad/mysql/index.html" data-role="button">
+        <h2>Más Informacion</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+
+    </p>
+        
+ </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h2>HTML</h2> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Subida a la red de sitios web</h2>
+    <p>Seguramente existen muchos usuarios que han aprendido a manejar múltiples sitios de WordPress por su propia cuenta. Algunos hasta quizás comenzaron a administrar sitios de WordPress para sus clientes, amigos o familia.
+
+Pero no sé si sabías, existe una forma que se pueden instalar fácilmente múltiples sitios en WordPress.
+
+Es con la ejecución de múltiples sitios de WordPress en diferentes subdominios, que se quieran gestionar todos juntos. Por eso en este artículo, te mostraré cómo instalar una de red de múltiples sitios con WordPress Multisite.    </p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('web','','imagenes/web2.png',1)"><img src="imagenes/web.jpg" width="700" height="368" id="web"></a>
+    <div data-role="main" class="ui-content" align="center">
+<div style="width:60%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+      <a href="https://www.webempresa.com/blog/red-de-sitios-wordpress-multisite.html" data-role="button">
+        <h2>Más</h2>
+      </a>
+    </li>
+      
+   </ul>
+ </div>
+</div>
+
+
+        
+ </div>
+  </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4>Aplicación 10, JEM</h4>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
